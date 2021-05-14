@@ -21,9 +21,6 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#![feature(external_doc)]
-#![doc(include = "../README.md")]
-
 use std::alloc::{System,GlobalAlloc,Layout};
 use std::cell::Cell;
 
